@@ -1,0 +1,27 @@
+:root {
+    --background-color: #181818;
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: "JetBrains Mono";
+}
+
+footer {
+    background-color: var(--background-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar {
+    background-color: var(--background-color);
+    box-shadow: none;
+}
+
+.bg-grey {
+    background-color: var(--background-color);
+}
+
+.bordered {
+    border-top: 1px solid #b3b3b3;
+}
