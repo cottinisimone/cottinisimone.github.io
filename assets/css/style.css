@@ -4,7 +4,7 @@
 
 body {
     background-color: var(--background-color);
-    font-family: "JetBrains Mono";
+    font-family: "Encode Sans";
 }
 
 footer {
@@ -18,10 +18,23 @@ footer {
     box-shadow: none;
 }
 
-.bg-grey {
-    background-color: var(--background-color);
-}
-
 .bordered {
     border-top: 1px solid #b3b3b3;
+}
+
+/* markdown section styles */
+#markdown-view {
+    font-family: "Source Code Pro";
+}
+
+#markdown-view h3 {
+    line-height: 2;
+}
+
+#markdown-view p {
+    line-height: 1.9;
+}
+
+#markdown-view ul {
+    line-height: 1.8;
 }
